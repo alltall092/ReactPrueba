@@ -20,13 +20,13 @@ const Header=()=>{
     return n;
       
     };
-
+//hola 
 return(<>
  <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
        
-      
+      <img src="./logo/logo.png" height="50" width="50" />
     R ArchivoRD
     </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

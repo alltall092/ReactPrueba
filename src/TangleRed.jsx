@@ -11,7 +11,8 @@ import Dropzone from 'react-dropzone'
 import Whatsapp from './Whatsapp';
 import Swal from 'sweetalert2'
 import { useNavigate } from 'react-router-dom';
-import CryptoJS from 'crypto-js';
+
+import Footer  from './Footer';
 
 
 function TangleRed() {
@@ -204,9 +205,12 @@ axios.post('https://nodejsprueba.onrender.com/api/v1/encryptado',JSON.stringify(
     </div>
     <Whatsapp/>
     </div>
+    <div className="contener">
+<Footer/>
+</div>
 
     </>
   );
 }
-
+// hola 
 export default TangleRed;
